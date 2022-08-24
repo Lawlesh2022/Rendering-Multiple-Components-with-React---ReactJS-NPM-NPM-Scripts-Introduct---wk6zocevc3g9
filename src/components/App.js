@@ -3,7 +3,9 @@ import '../styles/App.css';
 
 const App = () => {
   return (
-    <div id="main"></div>
+    <div id="main">
+    <h1 data-ns-test = "Rendering Multiple Components with React">Rendering Multiple Components with React</h1>
+    </div>
   )
 }
 
